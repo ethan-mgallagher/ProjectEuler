@@ -13,6 +13,7 @@ different square laminae.
 Using up to one million tiles how many different square laminae can be formed?
  */
 /*
+NOTES:
 To solve this problem we simply observe that to wrap a hollow of size n we need ( n * 4 + 4 ) tiles.
 We can wrap a hollow multiple times by treating each successive wrap as a wrap of a n + 2 sized hollow.
 
@@ -25,6 +26,7 @@ hollow size until the hollow size is too big to be wrapped even once
 A more efficient algorithm should be possible but it is hardly necessary given the
 small n
  */
+
 public class pe173 {
 
     public static void main( String[] args ){
@@ -54,7 +56,4 @@ public class pe173 {
 
         System.out.println( counter );
     }
-
-
-
 }
