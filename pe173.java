@@ -1,8 +1,9 @@
 /**
- * Created by ethan gallagheron 10/7/16.
+ * Created by ethan gallagher on 10/7/16.
  */
-
-/*
+//Project Euler Problem 173
+//Problem Prompt:
+/**
 We shall define a square lamina to be a square outline with a square "hole" so that the shape possesses vertical and
 horizontal symmetry. For example, using exactly thirty-two square tiles we can form two different square laminae:
 
@@ -12,8 +13,8 @@ different square laminae.
 
 Using up to one million tiles how many different square laminae can be formed?
  */
-/*
-NOTES:
+//Notes:
+/**
 To solve this problem we simply observe that to wrap a hollow of size n we need ( n * 4 + 4 ) tiles.
 We can wrap a hollow multiple times by treating each successive wrap as a wrap of a n + 2 sized hollow.
 

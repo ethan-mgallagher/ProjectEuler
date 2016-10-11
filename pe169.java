@@ -6,9 +6,10 @@
 import java.util.ArrayList;
 import java.math.*;
 
-//project euler problem 169
-/*
-NOTES:
+//Project Euler Problem 169
+
+//Problem Prompt:
+/**
 Define f(0)=1 and f(n) to be the number of different ways n can be expressed as a sum of integer powers of 2 using
 each power no more than twice.
 
@@ -21,12 +22,11 @@ each power no more than twice.
         2 + 8
 
         What is f(10^25)?
-
-There are much faster and more elegant solutions to this problem using binary
-I tried solving this problem by finding a direct formula in base ten.
- I was not able to find a simple formula, however the algorithm
- below, or one similar, could conceivably be of use in some other situation
-and gives the correct answer here
+*/
+//Notes:
+/**There are much faster and more elegant solutions to this problem using binary
+I tried solving this problem by finding a direct formula in base ten. The
+ recurrence relation I found is explained in these notes.
 
 If we represent our sum of powers in max-order as a list of integers, with each integer being
 either the initial power or the most recent decrement, we get something like this:

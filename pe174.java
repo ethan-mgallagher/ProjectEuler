@@ -1,8 +1,9 @@
 /**
  * Created by ethan gallagher on 10/10/16.
  */
-/*
-Prompt:
+//Project Euler Problem 174
+//Problem Prompt:
+/**
 We shall define a square lamina to be a square outline with a square "hole" so that the shape possesses vertical
 and horizontal symmetry.
 
@@ -17,8 +18,9 @@ Let N(n) be the number of t ≤ 1000000 such that t is type L(n); for example, N
 
 What is ∑ N(n) for 1 ≤ n ≤ 10?
  */
-/*
-Notes:
+//Notes:
+/**
+
 
 We see from the structure of any square laminae that the number of tiles used will be one square minus another square.
 It is convenient to represent the length of the inner square as b, and the width of (one side )
