@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.math.*;
 
 //Project Euler Problem 169
-
 //Problem Prompt:
 /**
 Define f(0)=1 and f(n) to be the number of different ways n can be expressed as a sum of integer powers of 2 using
