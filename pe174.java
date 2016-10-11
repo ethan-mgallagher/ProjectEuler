@@ -20,8 +20,6 @@ What is ∑ N(n) for 1 ≤ n ≤ 10?
  */
 //Notes:
 /**
-
-
 We see from the structure of any square laminae that the number of tiles used will be one square minus another square.
 It is convenient to represent the length of the inner square as b, and the width of (one side )
 of the enclosing outer square as x. The number of tiles used to make the square laminae, t, is thus
