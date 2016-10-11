@@ -27,7 +27,6 @@ hollow size until the hollow size is too big to be wrapped even once
 A more efficient algorithm should be possible but it is hardly necessary given the
 small n
  */
-
 public class pe173 {
 
     public static void main( String[] args ){
