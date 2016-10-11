@@ -56,12 +56,12 @@ public class pe174 {
 
         int top = 250001;// one higher than the ceiling because I skip the zeroth array index for convenience
         int[] arr = new int[top];//to keep track of valid factorizations for each t
-        long ceil;
+        long max; //the maximum factorization we will consider
         for ( int i = 2; i < top; i++ ){
-            ceil = (int)Math.ceil( Math.sqrt(i) );//Tricky part. We must use Math.ceil for cases in which
+            max = (int)Math.ceil( Math.sqrt(i) );//Tricky part. We must use Math.ceil for cases in which
             //there is a valid factor immediately before a square root.
 
-            for ( int j = 1 ; j < ceil ; j++ ){
+            for ( int j = 1 ; j < max ; j++ ){
                 if ( i % j == 0 ) arr[i] += 1;//this represents a valid factor, or c, that can be combined
                 //with some x to form a valid square lamninae
             }
