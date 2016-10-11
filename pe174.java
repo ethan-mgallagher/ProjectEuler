@@ -60,11 +60,12 @@ public class pe174 {
         for ( int i = 2; i < top; i++ ){
             ceil = (int)Math.ceil( Math.sqrt(i) );//Tricky part. We must use Math.ceil for cases in which
             //there is a valid factor immediately before a square root.
+
             for ( int j = 1 ; j < ceil ; j++ ){
-                if ( i % j == 0 ) arr[i] += 1;
+                if ( i % j == 0 ) arr[i] += 1;//this represents a valid factor, or c, that can be combined
+                //with some x to form a valid square lamninae
             }
         }
-
 
         int counter = 0;
 
